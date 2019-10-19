@@ -1,15 +1,23 @@
 /* html,body{
     scroll-snap-type: y mandatory;
 } */
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
 body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
     background-image: url("../assets/Artboard.png");
     background-attachment: fixed;
+    font-family: 'Rubik', sans-serif;
+
 
 }
-
+/* 
+p {
+    font-size: 1.3em;
+    text-align: justify;
+} */
 /* .c1{
     scroll-snap-align: start;
     scroll-snap-stop: always; 
@@ -144,12 +152,12 @@ body::-webkit-scrollbar-thumb {
     }
 
     .navbar-brand>img:nth-child(1) {
-        width: 18%;
+        width: 14%;
         padding-left: 1vh;
     }
 
     .navbar-brand>img:nth-child(2) {
-        width: 45%;
+        width: 40%;
         padding-left: 2vh;
     }
 
@@ -159,7 +167,7 @@ body::-webkit-scrollbar-thumb {
 
     .feat_head>h3 {
         padding-top: 30px;
-        font-size: 4em;
+        font-size: 4.4em;
 
         font-weight: bold;
     }
@@ -249,8 +257,9 @@ body::-webkit-scrollbar-thumb {
     }
 
     .compare .head h1 {
+
         text-align: center;
-        font-size: 5em;
+        font-size: 4.4em;
         font-weight: bold;
         text-shadow: 1vh;
         padding: 0% 0 5% 0;
@@ -331,7 +340,6 @@ body::-webkit-scrollbar-thumb {
 
     .backup ul li i {
         color: #00fda9;
-        padding-right: 15px;
         font-size: 1.5em;
     }
 
@@ -416,18 +424,17 @@ body::-webkit-scrollbar-thumb {
 
     .training_content p {
         text-align: justify;
-        font-size: larger;
+        font-size: 1.3em;
     }
 
     .row {
-        margin-bottom: 4% !important;
-
-
+        /* margin-bottom: 4% !important; */
     }
 
     .head h1 {
+        margin-top: 5%;
         text-align: center;
-        font-size: 5em;
+        font-size: 4.4em;
         font-weight: bold;
         text-shadow: 1vh;
         padding: 0% 0 5% 0;
@@ -451,14 +458,14 @@ body::-webkit-scrollbar-thumb {
     }
 
     .faq {
-        padding: 10%;
+        padding: 0 10% 5% 10%;
         background-color: white;
 
     }
 
     .faq h1 {
         text-align: center;
-        font-size: 5em;
+        font-size: 4.4em;
         font-weight: bold;
     }
 
@@ -616,12 +623,12 @@ body::-webkit-scrollbar-thumb {
     }
 
     .navbar-brand>img:nth-child(1) {
-        width: 18%;
+        width: 14%;
         padding-left: 1vh;
     }
 
     .navbar-brand>img:nth-child(2) {
-        width: 45%;
+        width: 40%;
         padding-left: 2vh;
     }
 
@@ -799,7 +806,7 @@ body::-webkit-scrollbar-thumb {
 
     .backup ul li i {
         color: #00fda9;
-        padding-right: 15px;
+     
         font-size: 1.5em;
     }
 
@@ -888,7 +895,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .row {
-        margin-bottom: 4% !important;
+        /* margin-bottom: 4% !important; */
         margin-right: 0%;
     }
 
@@ -918,7 +925,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .faq {
-        padding: 10%;
+        padding: 0 10% 5% 10%;
         background-color: white;
 
     }
@@ -1270,7 +1277,7 @@ body::-webkit-scrollbar-thumb {
 
     .backup ul li i {
         color: #00fda9;
-        padding-right: 15px;
+     
         font-size: 1.5em;
     }
 
@@ -1359,7 +1366,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .row {
-        margin-bottom: 4% !important;
+        /* margin-bottom: 4% !important; */
         margin-right: 0%;
     }
 
@@ -1741,7 +1748,7 @@ body::-webkit-scrollbar-thumb {
 
     .backup ul li i {
         color: #00fda9;
-        padding-right: 15px;
+     
         font-size: 1.5em;
     }
 
@@ -1830,7 +1837,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .row {
-        margin-bottom: 4% !important;
+        /* margin-bottom: 4% !important; */
         margin-right: 0%;
     }
 
@@ -2213,7 +2220,7 @@ body::-webkit-scrollbar-thumb {
 
     .backup ul li i {
         color: #00fda9;
-        padding-right: 15px;
+     
         font-size: 1.5em;
     }
 
@@ -2302,7 +2309,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .row {
-        margin-bottom: 4% !important;
+        /* margin-bottom: 4% !important; */
         margin-right: 0%;
     }
 
@@ -2332,7 +2339,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .faq {
-        padding: 10%;
+        padding:10%;
         background-color: white;
 
     }
@@ -2679,7 +2686,7 @@ body::-webkit-scrollbar-thumb {
 
     .backup ul li i {
         color: #00fda9;
-        padding-right: 15px;
+     
         font-size: 1.5em;
     }
 
@@ -2768,7 +2775,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .row {
-        margin-bottom: 4% !important;
+        /* margin-bottom: 4% !important; */
         margin-right: 0%;
     }
 
@@ -2798,7 +2805,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .faq {
-        padding: 10%;
+        padding:10%;
         background-color: white;
 
     }
