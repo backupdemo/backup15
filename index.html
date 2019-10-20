@@ -49,8 +49,10 @@
 
     <script>
         $(document).ready(function () {
-            // var i = 1;
-            $("#fadein").fadeIn(5000);
+            $("svg").delay(4000).fadeIn(5000);
+            // $("#fadein").fadeIn(2000);
+            $("#fadein").fadeOut(2000);
+            $("#fadein,.noti").delay(4000).fadeIn(6000);
 
         });
 
@@ -137,7 +139,7 @@
                         REIMAGINING CYBER-SECURITY TRAINING</h3>
                 </div>
                 <!-- <p class="powered">pushkar aake bata ke jayega</p> -->
-                <div class="noti " >
+                <div class="noti " style="display: none;">
                     <h4 class="cybercorner" style="color: red;text-align: center;">CYBER <span style="color: white">CORNER</span></h4>
                     <div class="notification row" id="n1">
                         <div class="col-md-3 not_img">

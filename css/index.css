@@ -3,7 +3,9 @@
 html {
     overflow-x: hidden
 }
-
+svg{
+    display: none;
+}
 body {
     background-image: url("../assets/Artboard.png");
     background-attachment: fixed;
