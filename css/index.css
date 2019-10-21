@@ -943,7 +943,7 @@ tr {
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin: 10% 0 0 31%;
+        margin-top: 10%;
     }
 
     .main-heading>img:nth-child(1) {
@@ -5045,7 +5045,7 @@ tr {
         outline: 0;
     }
 
-    .newmainheading {
+    .main-heading {
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -5054,16 +5054,16 @@ tr {
     }
 
 
-    .newmainheading>img:nth-child(1) {
+    .main-heading>img:nth-child(1) {
         width: 65px;
         margin: 0 21px 0 0;
     }
 
-    .newmainheading>img:nth-child(2) {
+    .main-heading>img:nth-child(2) {
         width: 220px;
     }
 
-    .newmainheading>h3 {
+    .main-heading>h3 {
         font-size: 1.1em;
         text-align: center;
         padding-top: 10px !important;
