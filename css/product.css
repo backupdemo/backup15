@@ -13,6 +13,7 @@ body {
 
 
 }
+
 /* 
 p {
     font-size: 1.3em;
@@ -49,6 +50,13 @@ body::-webkit-scrollbar-thumb {
 
     p {
         text-align: justify;
+    }
+
+    .begin2020 {
+        font-size: 2em !important;
+        font-weight: bold;
+        text-align: center;
+        font-family: Courier New, monospace;
     }
 
     .navbar-toggler {
@@ -195,8 +203,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .contact_us>h4 {
-        font-size: 1.5em;
-
+        font-size: 2em;
+        color: black;
         padding: 15px;
     }
 
@@ -218,8 +226,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .contact_us>p {
-        font-size: 1.2em;
-
+        font-size: 1.5em;
+        color: black;
         padding: 15px 0 5px 0;
     }
 
@@ -515,6 +523,13 @@ body::-webkit-scrollbar-thumb {
         margin-right: 0% !important;
     }
 
+    .begin2020 {
+        font-size: 2em !important;
+        font-weight: bold;
+        text-align: center;
+        font-family: Courier New, monospace;
+    }
+
     p {
         text-align: justify;
     }
@@ -806,7 +821,7 @@ body::-webkit-scrollbar-thumb {
 
     .backup ul li i {
         color: #00fda9;
-     
+
         font-size: 1.5em;
     }
 
@@ -984,6 +999,13 @@ body::-webkit-scrollbar-thumb {
     .mx-auto {
         margin-left: 0% !important;
         margin-right: 0% !important;
+    }
+
+    .begin2020 {
+        font-size: 2em !important;
+        font-weight: bold;
+        text-align: center;
+        font-family: Courier New, monospace;
     }
 
     p {
@@ -1277,7 +1299,7 @@ body::-webkit-scrollbar-thumb {
 
     .backup ul li i {
         color: #00fda9;
-     
+
         font-size: 1.5em;
     }
 
@@ -1455,6 +1477,13 @@ body::-webkit-scrollbar-thumb {
     .mx-auto {
         margin-left: 0% !important;
         margin-right: 0% !important;
+    }
+
+    .begin2020 {
+        font-size: 2em !important;
+        font-weight: bold;
+        text-align: center;
+        font-family: Courier New, monospace;
     }
 
     p {
@@ -1748,7 +1777,7 @@ body::-webkit-scrollbar-thumb {
 
     .backup ul li i {
         color: #00fda9;
-     
+
         font-size: 1.5em;
     }
 
@@ -2220,7 +2249,7 @@ body::-webkit-scrollbar-thumb {
 
     .backup ul li i {
         color: #00fda9;
-     
+
         font-size: 1.5em;
     }
 
@@ -2339,7 +2368,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .faq {
-        padding:10%;
+        padding: 10%;
         background-color: white;
 
     }
@@ -2686,7 +2715,7 @@ body::-webkit-scrollbar-thumb {
 
     .backup ul li i {
         color: #00fda9;
-     
+
         font-size: 1.5em;
     }
 
@@ -2805,7 +2834,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .faq {
-        padding:10%;
+        padding: 10%;
         background-color: white;
 
     }

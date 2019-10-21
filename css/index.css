@@ -320,7 +320,10 @@ tr {
 @media (min-width: 1281px) {
 
     @import url("https://fonts.googleapis.com/css?family=El+Messiri");
-
+    .teamline{
+        text-align: end !important;
+        font-size: 1.3em;
+      }
     .backup {
         display: flex;
         justify-content: center;
