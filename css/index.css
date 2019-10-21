@@ -36,17 +36,24 @@ p {
     text-align: justify;
 
 }
-
+.position{
+    position: fixed;
+}
 iframe {
     border-width: 0;
 }
 
 .login100-pic {
-    width: 400px;
+    /* width: 400px; */
+
 }
 
 .login100-pic img {
-    max-width: 100%;
+    /* max-width: 100%; */
+    display: block;
+    margin: auto;
+    width:23%;
+
 }
 
 /* what why how card */
@@ -320,7 +327,17 @@ tr {
         align-items: center;
         /* min-height: 100vh; */
     }
-
+    .newmainheading{
+        text-align: center;
+        margin-top: 9%;
+    }
+    .login100-pic img {
+       
+        width:10% !important;
+    
+    }
+    
+   
     .in-view {
         width: 60%;
     }
@@ -1343,7 +1360,16 @@ tr {
         align-items: center;
         /* min-height: 100vh; */
     }
-
+    .newmainheading{
+        text-align: center;
+        margin-top: 9%;
+    }
+    .login100-pic img {
+       
+        width:10% !important;
+    
+    }
+   
     .in-view {
         width: 60%;
     }
@@ -2200,6 +2226,11 @@ tr {
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
+    .newmainheading{
+        text-align: center;
+        margin-top: 20%;
+    }
+   
     button.navbar-toggler{
         color: #00fda9;
         float: right;
@@ -2569,8 +2600,8 @@ tr {
     }
 
     img.logoimage{
-        width: 20% !important;
-        margin: 0 0 0 30% !important;
+        width: 15% !important;
+        /* margin: 0 0 0 30% !important; */
     }
     #fadein h3 {
         padding-top: 10px !important;
@@ -3012,6 +3043,11 @@ tr {
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
+    .newmainheading{
+        text-align: center;
+        margin-top: 20%;
+    }
+   
     .backup {
         display: flex;
         justify-content: center;
@@ -3796,6 +3832,10 @@ tr {
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
+    .newmainheading{
+        text-align: center;
+        margin-top: 10%;
+    }
     .backup {
         display: flex;
         margin:0 auto;
@@ -3806,7 +3846,7 @@ tr {
     }
 
     img.logoimage{
-        width: 20% !important	;
+        width: 10% !important;
     }
     #fadein h3 {
         padding-top: 10px !important;
@@ -4598,6 +4638,11 @@ tr {
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
+    .newmainheading{
+        text-align: center;
+        margin-top: 20%;
+    }
+   
     svg.datamap{
         margin-top: -55%;
     }
@@ -4609,11 +4654,11 @@ tr {
     }
 
     .login100-pic.js-tilt {
-        width: 72%;
+        /* width: 72%; */
     }
 #fadein{
-    width: 89%;
-    margin-top: 18%;
+    /* width: 89%; */
+    margin-top: 73%;
 }
     /* p {
         font-size: 1em !important;
@@ -5000,7 +5045,7 @@ tr {
         outline: 0;
     }
 
-    .main-heading {
+    .newmainheading {
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -5009,16 +5054,16 @@ tr {
     }
 
 
-    .main-heading>img:nth-child(1) {
+    .newmainheading>img:nth-child(1) {
         width: 65px;
         margin: 0 21px 0 0;
     }
 
-    .main-heading>img:nth-child(2) {
+    .newmainheading>img:nth-child(2) {
         width: 220px;
     }
 
-    .main-heading>h3 {
+    .newmainheading>h3 {
         font-size: 1.1em;
         text-align: center;
         padding-top: 10px !important;
